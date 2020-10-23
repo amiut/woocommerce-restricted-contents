@@ -1,0 +1,15 @@
+.restricted-content-admin-ui .add-package-wrap {
+  max-width: 500px;
+}
+
+.green {
+  color: rgb(7, 146, 7);
+}
+
+.red {
+  color: rgb(255, 35, 35);
+}
+
+.column-invoice_id {
+  width: 18%;
+}

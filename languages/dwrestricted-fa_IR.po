@@ -1,0 +1,361 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dornaweb Newsletter lite\n"
+"POT-Creation-Date: 2020-07-16 13:08+0430\n"
+"PO-Revision-Date: 2020-07-16 13:09+0430\n"
+"Last-Translator: \n"
+"Language-Team: Dornaweb\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: includes/vendor\n"
+
+#: includes/admin/class-admin.php:22
+msgid "Restricted contents"
+msgstr "محتوای ویژه"
+
+#: includes/admin/class-admin.php:25
+msgid "Subscriptio packages"
+msgstr "پکیج های عضویت"
+
+#: includes/admin/class-admin.php:25 templates/admin/packages-list.php:6
+msgid "Packages"
+msgstr "پکیج ها"
+
+#: includes/admin/class-admin.php:27
+msgid "User subscriptions"
+msgstr "عضویت های کاربران"
+
+#: includes/class-app.php:171 includes/class-app.php:177
+#: includes/class-app.php:220 includes/class-app.php:226
+msgid "Insuficient access"
+msgstr "دسترسی کافی نیست"
+
+#: includes/class-app.php:183
+msgid "Enter package title"
+msgstr "عنوان پکیج را وارد کنید"
+
+#: includes/class-app.php:190
+msgid "Enter package price"
+msgstr "قیمت پکیج را وارد کنید"
+
+#: includes/class-app.php:197
+msgid "Enter package access count"
+msgstr "تعداد محدودیت دسترسی را وارد کنید"
+
+#: includes/class-app.php:206
+msgid "Package Created"
+msgstr "پکیج ایجاد شد"
+
+#: includes/class-app.php:232
+msgid "Choose a user"
+msgstr "یک کاربر انتخاب کنید"
+
+#: includes/class-app.php:239
+msgid "Choose a package"
+msgstr "یک پکیج انتخاب کنید"
+
+#: includes/class-app.php:261
+msgid "Subscription Created"
+msgstr "عضویت ویژه ایجاد شد"
+
+#: includes/class-app.php:271
+msgid "Another purchase is in progress, please try again in 3 minutes"
+msgstr "یک خرید دیگر در حال انجام است، لطفا پس از ۳ دقیقه مجددا امتحان کنید"
+
+#: includes/class-app.php:282 includes/class-app.php:320
+msgid "Invalid Request"
+msgstr "درخواست نا معتبر است"
+
+#: includes/class-app.php:301
+msgid ""
+"Your subscription is created an will be activated once you pay regarding "
+"invoice"
+msgstr ""
+"عضویت ویژه شما ایجاد شد، برای فعال شدن می بایست فاکتور مربوطه را پرداخت "
+"کنید، عضویت شما بعد از پرداخت به صورت خودکار فعال می شود"
+
+#: includes/class-app.php:314
+msgid "You are not logged in"
+msgstr "لطفا ابتدا وارد حساب کاربری خود شوید"
+
+#: includes/class-app.php:326
+msgid "Post does not exist"
+msgstr "مطلب وجود ندارد"
+
+#: includes/class-app.php:332
+msgid "You already have access to this content"
+msgstr "شما از قبل به این پست دسترسی داشته اید"
+
+#: includes/class-app.php:342
+msgid "You can now have access to this content"
+msgstr "شما اکنون میتوانید محتوای این پست را ببینید"
+
+#: includes/class-app.php:360
+msgid "My subscriptions"
+msgstr "عضویت ویژه"
+
+#: includes/class-packages-list.php:17 includes/class-packages-list.php:18
+msgid "Newsletter"
+msgstr "خبرنامه"
+
+#: includes/class-packages-list.php:87 includes/class-subscriptions-list.php:87
+msgid "No info avaliable."
+msgstr "اطلاعاتی یافت نشد."
+
+#: includes/class-packages-list.php:158
+#: includes/class-subscriptions-list.php:185
+msgid "Title"
+msgstr "عنوان"
+
+#: includes/class-packages-list.php:159 templates/admin/packages-list.php:39
+msgid "Access count"
+msgstr "تعداد دسترسی"
+
+#: includes/class-packages-list.php:160
+msgid "Price"
+msgstr "قیمت"
+
+#: includes/class-post-types.php:39
+msgid "Restricted Content"
+msgstr "محتوای محدود"
+
+#: includes/class-subscription.php:236
+msgid "<strong class=\"subscription-status red\">Inactive</strong>"
+msgstr "<strong class=\"subscription-status red\">غیرفعال</strong>"
+
+#: includes/class-subscription.php:239
+msgid "<strong class=\"subscription-status green\">Active</strong>"
+msgstr "<strong class=\"subscription-status green\">فعال</strong>"
+
+#: includes/class-subscription.php:242
+#, php-format
+msgid "<strong class=\"subscription-status\">%s</strong>"
+msgstr "<strong class=\"subscription-status\">%s</strong>"
+
+#: includes/class-subscription.php:265
+msgid "Invoice Created for subscription"
+msgstr "فاکتور مربوط به عضویت ویژه ایجاد شد"
+
+#: includes/class-subscription.php:266
+msgid "Auto generated subscription invoice"
+msgstr "فاکتور عضویت ویژه به صورت خودکار ایجاد شده است"
+
+#: includes/class-subscription.php:274
+msgid "Subscription"
+msgstr "اشتراک"
+
+#: includes/class-subscriptions-list.php:17
+#: includes/class-subscriptions-list.php:18
+#: templates/myaccount/subscriptions.php:2
+msgid "Subscriptions"
+msgstr "اشتراک ها"
+
+#: includes/class-subscriptions-list.php:117
+msgid "<strong class=\"green\">( Paid )</strong>"
+msgstr "<strong class=\"green\">( پرداخت شده )</strong>"
+
+#: includes/class-subscriptions-list.php:117
+msgid "<strong class=\"red\">( Unpaid )</strong>"
+msgstr "<strong class=\"red\">( پرداخت نشده )</strong>"
+
+#: includes/class-subscriptions-list.php:121
+msgid "Pay"
+msgstr "پرداخت"
+
+#: includes/class-subscriptions-list.php:125
+msgid "View order"
+msgstr "مشاهده فاکتور"
+
+#: includes/class-subscriptions-list.php:168
+msgid "Subsription"
+msgstr "اشتراک"
+
+#: includes/class-subscriptions-list.php:186
+#: templates/admin/subscriptions-list.php:34
+msgid "User"
+msgstr "کاربر"
+
+#: includes/class-subscriptions-list.php:187
+#: templates/admin/subscriptions-list.php:29
+msgid "Package"
+msgstr "پکیج"
+
+#: includes/class-subscriptions-list.php:188
+msgid "Invoice"
+msgstr "فاکتور"
+
+#: includes/class-subscriptions-list.php:189
+msgid "Purchase date"
+msgstr "تاریخ خرید"
+
+#: includes/class-subscriptions-list.php:190
+msgid "Balance"
+msgstr "موجودی"
+
+#: includes/class-subscriptions-list.php:191
+msgid "Status"
+msgstr "وضعیت"
+
+#: templates/admin/packages-list.php:25
+msgid "Add new package"
+msgstr "افزودن پکیج جدید"
+
+#: templates/admin/packages-list.php:29
+msgid "Package title"
+msgstr "عنوان پکیج"
+
+#: templates/admin/packages-list.php:34
+msgid "Package price"
+msgstr "قیمت پکیج"
+
+#: templates/admin/packages-list.php:45
+msgid "Create package"
+msgstr "ایجاد پکیج"
+
+#: templates/admin/restricted-metabox.php:6
+msgid "This post is restricted to users with subscription"
+msgstr "این پست به کاربران دارای اشتراک ویژه محدود شده است"
+
+#: templates/admin/restricted-metabox.php:9
+msgid "Needed credit"
+msgstr "اعتبار مورد نیاز"
+
+#: templates/admin/restricted-metabox.php:10
+msgid "How much credit is needed to unlock this content?"
+msgstr "چقد اعتبار برای نمایش این مطلب مورد نیاز است؟"
+
+#: templates/admin/subscriptions-list.php:6
+msgid "User Subscriptions"
+msgstr "اشتراک های کاربر"
+
+#: templates/admin/subscriptions-list.php:25
+msgid "Add subscription for user"
+msgstr "افزودن اشتراک برای کاربر"
+
+#: templates/admin/subscriptions-list.php:39
+msgid "Activate Subscription (Without payment)"
+msgstr "فعال کردن اشتراک ( بدون پرداخت )"
+
+#: templates/admin/subscriptions-list.php:44
+msgid "Assign user"
+msgstr "انتخاب کاربر"
+
+#: templates/myaccount/package-item.php:6
+#: templates/myaccount/package-item.php:18
+#: templates/myaccount/package-item.php:20
+msgid "No time limit"
+msgstr "بدون محدودیت زمانی"
+
+#: templates/myaccount/package-item.php:10
+msgid "Access VIP content"
+msgstr "دسترسی به محتوای ویژه"
+
+#: templates/myaccount/package-item.php:19
+msgid "Access VIP Content"
+msgstr "دسترسی به محتوای ویژه"
+
+#: templates/myaccount/package-item.php:25
+msgid "Purchase"
+msgstr "خرید"
+
+#: templates/myaccount/restricted-message.php:7
+msgid "This File is for VIP users only"
+msgstr "این فایل مخصوص اعضای ویژه است"
+
+#: templates/myaccount/restricted-message.php:10
+msgid "This Content is for VIP users only"
+msgstr "این محتوا مخصوص اعضای ویژه است"
+
+#: templates/myaccount/restricted-message.php:35
+msgid ""
+"To view this file you need to first register and then buy a VIP subscription"
+msgstr ""
+"برای مشاهده این فایل ابتدا باید ثبت نام کنید، سپس اقدام به خریداری اشتراک "
+"ویژه نمایید"
+
+#: templates/myaccount/restricted-message.php:38
+msgid ""
+"To view this content you need to first register and then buy a VIP "
+"subscription"
+msgstr ""
+"برای مشاهده این محتوا ابتدا باید ثبت نام کنید، سپس اقدام به خریداری اشتراک "
+"ویژه نمایید"
+
+#: templates/myaccount/restricted-message.php:48
+msgid "To view this file you need to buy a VIP subscription"
+msgstr "برای مشاهده این فایل باید یک اشتراک ویژه خریداری نمایید"
+
+#: templates/myaccount/restricted-message.php:51
+msgid "To view this content you need to buy a VIP subscription"
+msgstr "برای محتوا این فایل باید یک اشتراک ویژه خریداری نمایید"
+
+#: templates/myaccount/restricted-message.php:61
+msgid "To unlock this file you need to use your credit"
+msgstr "برای مشاهده این فایل اعتبار اشتراک ویژه شما استفاده می شود"
+
+#: templates/myaccount/restricted-message.php:64
+msgid "To unlock this content you need to use your credit"
+msgstr "برای مشاهده این محتوا اعتبار اشتراک ویژه شما استفاده می شود"
+
+#: templates/myaccount/restricted-message.php:73
+msgid "Credits needed: "
+msgstr "مقدار اعتبار مورد نیاز:"
+
+#: templates/myaccount/restricted-message.php:81
+msgid "Spend credit and unlock"
+msgstr "کسر از اعتبار و مشاهده"
+
+#: templates/myaccount/subscriptions.php:14
+msgid "We do not have any subscription plan right now"
+msgstr "در حال حاضر شما اشتراک ویژه ای ندارید"
+
+#~ msgid "Newsletter list"
+#~ msgstr "لیست خبرنامه"
+
+#~ msgid "Please Fill in newsletter form"
+#~ msgstr "لطفا فرم خبرنامه را پر کنید"
+
+#~ msgid "Your email address is invalid"
+#~ msgstr "آدرس ایمیل نامعتبر است"
+
+#~ msgid "You have already subscribed to our newsletter"
+#~ msgstr "شما قبلا در خبرنامه ما عضو شده اید"
+
+#~ msgid "You have successfully registered to our newsletter"
+#~ msgstr "شما با موفقیت عضو خبرنامه شدید"
+
+#~ msgid "Name"
+#~ msgstr "نام"
+
+#~ msgid "Email"
+#~ msgstr "ایمیل"
+
+#~ msgid "Phone number"
+#~ msgstr "شماره تلفن"
+
+#~ msgid "ٔNewsletter"
+#~ msgstr "خبرنامه"
+
+#~ msgid "Export Data"
+#~ msgstr "خروجی گرفتن اطلاعات"
+
+#~ msgid "Only emails"
+#~ msgstr "فقط ایمیل ها"
+
+#~ msgid "Only phone numbers"
+#~ msgstr "فقط شماره تلفن ها"
+
+#~ msgid "All data"
+#~ msgstr "همه اطلاعات"
+
+#~ msgid "Download CSV"
+#~ msgstr "دانلود فایل csv"
