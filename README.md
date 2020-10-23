@@ -1,0 +1,1 @@
+# woocommerce-restricted-contents
