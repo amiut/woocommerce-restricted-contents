@@ -12,9 +12,11 @@ If you want to partialy restrict some contents in your post you can use `[dwrest
 
 ## Check if user has access to post
 Thi will return true if user has already spent credits to access the post
+
 ``dwrestricted_user_has_access( int|WP_Post $post ) : bool``
 
 ## Output Restricted Message once the post is restricted and user doesn't have access
 ``dwrestricted_post_show_restricted_message( int|WP_Post $post ) : void``
+
 The template can be overrided in `woocommerce/myaccount/restricted-message.php` in your theme directory
 
